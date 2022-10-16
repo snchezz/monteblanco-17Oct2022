@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../font/Roboto-Bold.ttf);
+}
+
+.center .materialboxed,
+.center-align .materialboxed {
+  margin: 0 auto;
+  position: relative !important;
+  padding-bottom: 2%;
+}
+
+.enlaces {
+  color: #000;
+  transition: all ease-in-out 0.3s;
+}
+
+.enlaces:hover {
+  color: #039BE5;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+#fuente {
+  font-family: Roboto;
+}
+
+#logo {
+  height: auto;
+  width: 20%;
+}
+
+#imgmonte {
+  height: auto;
+  width: 5%;
+}
+
+@media screen and (max-width: 600px) {
+  #imgmonte {
+    height: auto;
+    width: 10%;
+  }
+
+
+  #logo {
+    height: auto;
+    width: 40%;
+  }
+}
+
+.blackcolor {
+  color: #000;
+}
